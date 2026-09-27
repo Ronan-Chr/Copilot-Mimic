@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GamerGram</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar" aria-label="Main navigation header">
+        <div class="brand" aria-label="Branding">
+          <div class="brand-mark" aria-hidden="true">
+            <span>G</span>
+          </div>
+          <div class="brand-text">
+            <span class="brand-name">GamerGram</span>
+            <span class="brand-tag">For players & creators</span>
+          </div>
+        </div>
+
+        <nav class="top-nav" aria-label="Main navigation">
+          <a href="#" class="nav-link active">Home</a>
+          <a href="#" class="nav-link">Explore</a>
+          <a href="#" class="nav-link">Clips</a>
+          <a href="#" class="nav-link">Communities</a>
+        </nav>
+
+        <div class="top-actions" aria-label="User actions">
+          <button class="icon-button" aria-label="Messages">✦</button>
+          <button class="icon-button" aria-label="Notifications">⚑</button>
+          <div class="profile-pill">
+            <span class="profile-avatar">C</span>
+            <span>Chris</span>
+          </div>
+        </div>
+      </header>
+
+      <main class="layout" aria-label="Social media feed layout">
+        <aside class="left-rail" aria-label="Sidebar navigation">
+          <section class="panel side-panel">
+            <p class="eyebrow">Discover</p>
+            <ul class="nav-list">
+              <li><a href="#">Featured</a></li>
+              <li><a href="#">Trending</a></li>
+              <li><a href="#">Squads</a></li>
+              <li><a href="#">LFG</a></li>
+            </ul>
+          </section>
+
+          <section class="panel side-panel">
+            <p class="eyebrow">Your circles</p>
+            <ul class="avatar-list">
+              <li><span class="dot purple"></span> PixelParty</li>
+              <li><span class="dot cyan"></span> RiftWatchers</li>
+              <li><span class="dot orange"></span> Arena Crew</li>
+            </ul>
+          </section>
+        </aside>
+
+        <section class="feed-column" aria-label="Recommended posts">
+          <div class="stories" aria-label="Stories">
+            <button class="story-item active">
+              <span class="story-avatar">Y</span>
+              <span>Your story</span>
+            </button>
+            <button class="story-item">
+              <span class="story-avatar cyan">A</span>
+              <span>Ava</span>
+            </button>
+            <button class="story-item">
+              <span class="story-avatar orange">J</span>
+              <span>Jax</span>
+            </button>
+            <button class="story-item">
+              <span class="story-avatar purple">M</span>
+              <span>Mila</span>
+            </button>
+            <button class="story-item">
+              <span class="story-avatar green">R</span>
+              <span>Rin</span>
+            </button>
+          </div>
+
+          <section class="feed" id="feed" aria-live="polite"></section>
+        </section>
+
+        <aside class="right-rail" aria-label="Recommended content">
+          <section class="panel side-panel">
+            <p class="eyebrow">Recommended for you</p>
+            <div class="recommended-list" id="recommended-list"></div>
+          </section>
+
+          <section class="panel side-panel">
+            <p class="eyebrow">Trending now</p>
+            <ul class="trend-list">
+              <li>#EldenRing</li>
+              <li>#Valorant</li>
+              <li>#CoopBuilds</li>
+              <li>#StreamingSetup</li>
+            </ul>
+          </section>
+        </aside>
+      </main>
+    </div>
+
+    <script src="JS/script.js"></script>
+  </body>
+</html>
