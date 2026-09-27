@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" role="img" aria-labelledby="title desc">
+  <title id="title">CONEX power connection logo</title>
+  <desc id="desc">A minimal CONEX wordmark framed by two smooth, rotationally symmetrical power cables with male and female terminals.</desc>
+
+  <defs>
+    <!-- The word is knocked out of the rectangle so it remains transparent. -->
+    <mask id="conex-cutout" maskUnits="userSpaceOnUse" x="370" y="275" width="660" height="250">
+      <rect x="370" y="275" width="660" height="250" fill="#fff"/>
+      <text x="700" y="457"
+            fill="#000"
+            text-anchor="middle"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="154"
+            font-weight="700"
+            letter-spacing="9">CONEX</text>
+    </mask>
+  </defs>
+
+  <!-- Transparent background -->
+
+  <!-- One continuous visual system: equal weight, mirrored geometry -->
+  <g fill="none" stroke="#000" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M370 390
+             C226 390 120 318 120 210
+             C120 104 272 80 520 80
+             H990"/>
+    <path d="M1030 410
+             C1174 410 1280 482 1280 590
+             C1280 696 1128 720 880 720
+             H410"/>
+  </g>
+
+  <!-- Female terminal: compact IEC-inspired abstraction -->
+  <g aria-label="female connector">
+    <path fill="#000" d="M990 48L1012 26H1108V134H1012L990 112Z"/>
+  </g>
+
+  <!-- Male terminal: same housing language, opposite orientation -->
+  <g aria-label="male connector" fill="#000">
+    <path d="M410 688L388 666H316V774H388L410 752Z"/>
+    <rect x="270" y="691" width="46" height="10" rx="3"/>
+    <rect x="270" y="739" width="46" height="10" rx="3"/>
+  </g>
+
+  <!-- Core wordmark -->
+  <rect x="370" y="275" width="660" height="250" fill="#000" mask="url(#conex-cutout)"/>
+</svg>
