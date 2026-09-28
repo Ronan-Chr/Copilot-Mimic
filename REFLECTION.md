@@ -1,14 +1,25 @@
 Q1 What did you ask Copilot to help you build? How did you break down the problem?
--
+-I firsst started by having Co-Pilot give me a mock up semantical structure of the website to start which included things like divs and nav bar and just got a container to start adding actual useful features too. I then from that used recylcled functions from other assignments Ive done like stealing the card formatting for posts from my club website and then just changing colors and font to fit better. I find that making AI do tasks where there is decisions that are usually implied by the person doing it AI tends to go in a completly random direction taking liberties to change 50 things instead of 1 so asking specified questions like "Can you help make the padding between the buttons in posts is 50% bigger" itll get something like that done right and in an instant where doing something like "add all functions instagram has to these posts" leads to overlapping button underendered elements and broken logic making it harder to fix then if you took it step by step backtracking the issue.
+
+![First prompt of the entire project](screenshots/Screenshot%202026-09-27%20172933.png)
+
+The other big help was I wanted a video of some regard because in gaming its usually about the clip or a captured moment of the game so I used a personal clip on my computer and had Copilot help me make the JS that would loop the video muted the same way most socials do. It also helped me understand what was actually happening with the JS that made the video work and it happened to just be a loop that ran while stripping the audio.
+
+![Getting Copilot to replace picture post with video](screenshots/Screenshot%202026-09-27%20203345.png)
+![Copilot making JS for looped Video](screenshots/Screenshot%202026-09-27%20203355.png)
+![Getting Copilot to replace picture post with video](screenshots/Screenshot%202026-09-27%20203411.png)
 
 Q2 How did your approach to asking questions change as you worked?
--
+- I found that I was trying to use copilot for things I understood but not intracetly like I was having an issue at one point with padding and then I tried to just say "hey make this gap a bit bigger" and it kept doing nothing but burn tokens it was assuming the problem was somewhere completly unrelated. The more implied parts of a task to complete the harder AI finds it to do like anything creative such as web design it doesnt know what humans find appealing or nice looking which is where the AI look comes from in recent years. I changed my prompts from vague direction to direct instruction like duplicate the post block I made here just change the placeholder user name to any other random name so it shows like multiple users.
+![Comments feature specified for working with Copilot ](screenshots/Screenshot%202026-09-27%20203552.png)
 
 Q3 What parts of the development process with GitHub Copilot surprised you?
--
+-I found that the process of generating the Videos JS to have it be able to be viewed easily from the html was super impressive. I found that the idea of pictures and still files are easy to work with but videos have always been hard for me with sizing, loading, quality and this was like a 5 minutes issue when asking Copilot "what do i need to do to transition this video into something I can view. Also learned a good bit about the difference of a local host, live server view and a python server host all of which i encountered while trying to look at previews before pushes.
 
 Q4 What did you learn about the technology you used that you didn't know before?
--
+-The thing I learned about this technology that I was unfamiliar with was the Idea that it could screenshot I knew agentic AI like Copilot could do things by itself like search files and online resources but when I was having an issue with getting the live server display to match the local host one I asked it why they were mismatched even though everything was saved. The AI explained to me that local host was using the actually things inside of my VScode to show previews without it needing to be saved the same way it does for live server.
+![Suprising aspects](screenshots/Screenshot%202026-09-27%20203355.png)
 
 Q5 What would you do differently if you had to build this again?
--
+-If I were to do things over again I would take a more scrum like approach where I could actually write out the hard requirments to prepare myself for steps of development. Having a more percise look at what features are being requested for the website or need to be built can help with like specific JS for button interactions. It would help have a more planned out skeleton of the project and can be worked on more specifically feature by feature instead of the issues where AI starts to go off on a completly random route of reasoning. I also found that the styling choices default to the AI slop aesthetic which isnt terrible to fix but its easy to modularly ask it to change things from that state like in my first prompt.
+![Suprising aspects](screenshots/Screenshot%202026-09-27%20192317.png)
