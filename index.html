@@ -13,13 +13,7 @@
     <div class="app-shell">
       <header class="topbar" aria-label="Main navigation header">
         <div class="brand" aria-label="Branding">
-          <div class="brand-mark" aria-hidden="true">
-            <span>G</span>
-          </div>
-          <div class="brand-text">
-            <span class="brand-name">GamerGram</span>
-            <span class="brand-tag">For players & creators</span>
-          </div>
+          <img src="Images/CONEX-logo.svg" alt="CONEX-logo" class="brand-logo" />
         </div>
 
         <nav class="top-nav" aria-label="Main navigation">
@@ -30,8 +24,6 @@
         </nav>
 
         <div class="top-actions" aria-label="User actions">
-          <button class="icon-button" aria-label="Messages">✦</button>
-          <button class="icon-button" aria-label="Notifications">⚑</button>
           <div class="profile-pill">
             <span class="profile-avatar">C</span>
             <span>Chris</span>
@@ -53,11 +45,13 @@
 
           <section class="panel side-panel">
             <p class="eyebrow">Your circles</p>
-            <ul class="avatar-list">
-              <li><span class="dot purple"></span> PixelParty</li>
-              <li><span class="dot cyan"></span> RiftWatchers</li>
-              <li><span class="dot orange"></span> Arena Crew</li>
-            </ul>
+            <ul class="avatar-list" id="club-list"></ul>
+            <div id="club-news-panel" class="club-news-panel"></div>
+          </section>
+
+          <section class="panel side-panel">
+            <p class="eyebrow">Favorites</p>
+            <ul class="favorites-list" id="favorites-list"></ul>
           </section>
         </aside>
 

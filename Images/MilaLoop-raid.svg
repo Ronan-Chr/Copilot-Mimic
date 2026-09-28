@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-label="MilaLoop raid showcase">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#0b1d2d"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="32%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <rect width="1400" height="900" fill="url(#glow)"/>
+
+  <g opacity="0.28">
+    <path d="M0 620L245 250L500 620Z" fill="#1d4ed8"/>
+    <path d="M300 620L620 200L920 620Z" fill="#0ea5e9"/>
+    <path d="M700 620L1080 220L1400 620Z" fill="#0f172a"/>
+  </g>
+
+  <g fill="none" stroke="#e2e8f0" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+    <path d="M180 620C256 492 310 430 406 390C514 344 648 356 744 418C826 470 892 540 986 620"/>
+    <circle cx="700" cy="350" r="140"/>
+    <path d="M560 350H840M700 210V490"/>
+  </g>
+
+  <g fill="#0f172a" opacity="0.8">
+    <rect x="120" y="660" width="1160" height="140" rx="28"/>
+  </g>
+
+  <text x="700" y="735" text-anchor="middle" font-family="Arial, sans-serif" font-size="62" font-weight="700" fill="#e2e8f0" letter-spacing="4">RAID READY</text>
+</svg>
